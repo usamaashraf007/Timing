@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:id="@+id/fajr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fajr:"
+                android:textSize="29dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/fajrtv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="29dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                tools:ignore="DuplicateIds" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:id="@+id/duhr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Duhr:"
+                android:textSize="29dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/duhrtv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textSize="29dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:id="@+id/asr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Asr:"
+                android:textSize="29dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/asrtv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textSize="29dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:id="@+id/magrib"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Magrib:"
+                android:textSize="29dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/magribtv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textSize="29dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:id="@+id/isha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Isha:"
+                android:textSize="29dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/ishatv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textSize="29dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
